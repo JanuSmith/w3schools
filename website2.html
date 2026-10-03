@@ -1,13 +1,84 @@
 <!DOCTYPE html>
-<html>
-<head>
+<!-- saved from url=(0035)http://127.0.0.1:5500/website2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  
     </head>
     <body>
+      <html> 
+        <meta charset="UTF-8"> 
+        <title>clear video Example </title>
+        <style>
+          .video-container { 
+            display: flex; /* center video horizontally */ 
+            justify-content: center; 
+            margin-top: 20px auto; /*Adds spacing around video */ 
+            max-width: 800px; /* prevents video from dieng too wide */ 
+          } 
+          video { 
+            width: 100%; /*Make video responsive */ 
+            border-radius: 10px; /*smooth corners for a clean look */  
+            \box-shadow: 0 4px 8px rgba(226, 26, 26, 0.2); /* subtle shadow */ 
+          }
+        </style>
+        </head>
+        <body>
+          <div class="video-container"> 
+            <video controls >
+              <source src="your-vidoe.mp4" type="video/mp4"> 
+
+            </video>
+          </div>
+      </html>
+janu se video 
+
+<iframe width="420" height="315" src="./website2_files/Chuck.html" type="video/webm" <="" iframe="">
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
 
 
-<iframe width="420" height="315"
-src="./Chuck.webm"
-type="video/webm"
-</iframe>
+</script>
 </body>
+
+<h2>My picture </h2>
+  <img src="./toyta.jpg" alt="Toyota" width="500" height="600">
+  
+<body> 
+  this is my new wedsite 
+  <a href="https://www.youtube.com/watch?v=lDK9QqIzhwk&list=RDvx2u5uUu3DE&index=2">clickable link youtube ZA vidoe </a>
+  
 </html>
